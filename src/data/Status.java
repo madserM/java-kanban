@@ -1,6 +1,6 @@
 package data;
 
-public enum StatusList {
+public enum Status {
         NEW,
         IN_PROGRESS,
         DONE
