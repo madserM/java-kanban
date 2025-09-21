@@ -6,7 +6,7 @@ public class Task {
 private Integer id;
 private String name;
 private String description;
-private StatusList status;
+private Status status;
 
    public Task(String name, String description) {
         this.name = name;
@@ -19,14 +19,14 @@ private StatusList status;
         this.description = description;
     }
 
-    public Task(Integer id, String name, String description, StatusList status) {
+    public Task(Integer id, String name, String description, Status status) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.status = status;
     }
 
-    public Task(String name, String description, StatusList status) {
+    public Task(String name, String description, Status status) {
         this.name = name;
         this.description = description;
         this.status = status;
@@ -68,11 +68,11 @@ private StatusList status;
         this.description = description;
     }
 
-    public StatusList getStatus() {
+    public Status getStatus() {
         return status;
     }
 
-    public void setStatus(StatusList status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
 
